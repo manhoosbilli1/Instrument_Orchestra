@@ -1,9 +1,9 @@
 # Installation 
 
 Test Equipment: HMP4040 by Rohde & Schwarz
--currently tested on windows 10
--does not work on mac m1 arm64 (only device recognition done but doesn't connect)
--haven't tested on linux
+- Currently tested on windows 10
+- Does not work on mac m1 arm64 (only device recognition done but doesn't connect)
+- Haven't tested on linux
 
 This project requires a couple of libraries
 I installed a ton of things to get this thing working, from keysight library suite to HMExplorer to pycharm plugin for Rohde and to 3rd party libraries for accessing through python but none of them worked. the instrument would just not be returned when queried for presence. 
